@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Smash Karts!!</h1>
+            <p>This site shows all that is amazing about this game!</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#get-started">Get Started</a></li>
+                <li><a href="#Quiz">Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="overview">
+        <div class="container">
+            <h2>Game Overview</h2>
+            <p>Smash Karts is mayhem! You go around in go-karts, but with a wild twist—you're armed with all sorts of crazy weapons. You and your friends zoom through chaotic arenas, picking up power-ups like rockets, grenades, and machine guns to take each other out. It's all about outlasting your opponents and causing as much mayhem as possible.</p>
+            <p>Objective: The main goal is to destroy as many opponents as possible while avoiding being destroyed yourself.</p>
+            <p>Match Duration: Matches typically last a few minutes. The player with the most points at the end of the match wins.</p>
+            <p>Respawn: If your kart is destroyed, you will respawn after a short delay, allowing you to rejoin the action.</p>
+        </div>
+        <div class="flex-container">
+            <img id="smashkartsimg" src="./Images/smashkarts.jpeg" alt="smash karts">
+        </div>    
+    </section>
+
+    <section id="highlights">
+        <div class="container">
+            <h2>Game Highlights</h2>
+            <ul style="list-style-type:disc;">
+                <li>Wild Weapons: Arm yourself with rockets, grenades, and machine guns.</li>
+                <li>Trippy Controls: The controls are hard to get right, but when you do. You can smash you opponents!</li>
+                <li>Chaotic Battles: Outlast your friends in action-packed mayhem.</li>
+            </ul>
+        </div>
+        <div class="flex-container">
+            <video controls>
+                <source src="Videos/Trailer.mp4" type="video/mp4">
+                <source src="videos/Trailer.ogg" type="video/ogg">
+                Browser doesn't support video
+            </video>
+        </div>   
+    </section>
+
+    <section id="get-started">
+        <div class="container">
+            <h2>How to Get Started</h2>
+            <p>This is a mobile game, available on both android and Iphone. Go to your respective app store and search for "Smash Karts" and install the game. You are ready to go! Smash your friends away!</p>
+            <br>
+            <p>Tips: Try to get a hold of your controls, they are essential in the game. Sometimes the weapon that you get isn't the best one so swallow your pride and use it quickly to get a better one</p>
+        </div>
+    </section>
+
+    <section id="Quiz">
+        <div class="container">
+            <h1>Quiz</h1>
+        <div class="question">
+        <p>1. Smash Karts is a game involving what?</p>
+        <label><input type="radio" name="question0" value="a"> Cards</label><br>
+        <label><input type="radio" name="question0" value="b"> go-karts</label><br>
+        <label><input type="radio" name="question0" value="c"> Astronaut</label><br>
+        <label><input type="radio" name="question0" value="d"> Smashing someone's head off</label>
+        </div>
+        <div class="question">
+        <p>2. What is the goal of a player in Smash Karts?</p>
+        <label><input type="radio" name="question1" value="a"> To win the Race</label><br>
+        <label><input type="radio" name="question1" value="b"> To die as much as possible</label><br>
+        <label><input type="radio" name="question1" value="c"> To kill the most players</label><br>
+        <label><input type="radio" name="question1" value="d"> To swim the fastest</label>
+        </div>
+        <div class="question">
+        <p>3. What is the best powerup in Smash Karts?</p>
+        <label><input type="radio" name="question2" value="a"> Invincibility</label><br>
+        <label><input type="radio" name="question2" value="b"> Super duper smash</label><br>
+        <label><input type="radio" name="question2" value="c"> Rocket</label><br>
+        <label><input type="radio" name="question2" value="d"> Mine</label>
+        </div>
+        <button id="submit">Submit Quiz</button>
+        <div id="results"></div>
+            </div>
+            <br>
+            <br>
+    </section>
+
+    <footer>
+        <div class="container">
+            <a href="https://smashkarts.io/">Official Website</a>
+            <p>&copy; 2024 Himanshi Agrawal. All rights reserved. This website is not affiliated with Smash Karts.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
